@@ -126,14 +126,8 @@ const deals = [
 */
 
 //CODE HERE
-function newDeal (deals, newTitle){
-    deals.title = newTitle
-    return deals
-}
-newDeal(deals, '10% off!')
-
-// deals.title = deals.title.replace('15% off!', '10% off!')
-// console.log(deals)
+deals[0].title = deals[0].title.replace('15% Off!', '10% Off!');
+console.log(deals[0])
 /*
     The restaurant is going to continue its
     family deal for another month. 
@@ -148,3 +142,5 @@ newDeal(deals, '10% off!')
 */
 
 //CODE HERE
+deals[1].desc = deals[1].desc.replace('March', 'April').trim();
+console.log(deals[1])
