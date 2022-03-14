@@ -70,8 +70,8 @@ const pizza = {
 */
 
 //CODE HERE
-const {price} = pizza 
-console.log(price)
+// const {price} = pizza 
+// console.log(price)
 /*
     Fourth, and last, destructure the category
     property.
@@ -80,8 +80,8 @@ console.log(price)
 */
 
 //CODE HERE
-pizza.price = 8
-console.log(price)
+// pizza.price = 8
+// console.log(price)
 
 //////////////////PROBLEM 3////////////////////
 /* 
@@ -114,9 +114,11 @@ const foodArr = [{name: 'cheese'},{price: 5},{category: 'thin crust'},
 
 //CODE HERE
 
-// const filteredFood = foodArr.filter(/* CALLBACK HERE */)
+const filteredFood = foodArr.filter(el =>{
+    return el.price < 20;
+})
 
-
+console.log(filteredFood)
 
 //////////////////PROBLEM 5////////////////////
 /* 
