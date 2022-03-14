@@ -160,6 +160,16 @@ console.log(filteredFood)
 */
 
 //CODE HERE
+// const filterByProperty = (property, number, type) => {
+//     if(property === ''){
+//         return property;
+//     }
+//     if(number < 10){
+//         return number;
+//     }
+//     if()
+// }
+
 
 
 /*
